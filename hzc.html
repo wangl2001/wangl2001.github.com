@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>季节</title>
+	</head>
+	<body>
+		<script type="text/javascript">
+		var score = parseInt(window.prompt('请输入一个数字,我来翻译对应的季节:'));
+		if(score <=0 || score >=13){
+			document.write('输入错误!!');
+		}else if(score >= 3 && score <=5){
+			document.write('春天');
+		}else if(score >= 6 && score <= 8){
+			document.write('夏天');
+		}else if(score >= 9 && score <= 11){
+			document.write('秋天');
+		}else{
+			document.write('冬天');
+		}
+		</script>
+	</body>
+</html>
